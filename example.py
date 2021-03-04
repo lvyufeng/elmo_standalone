@@ -1,3 +1,4 @@
+import os
 from ELMo.elmo import Elmo, batch_to_ids
 
 """

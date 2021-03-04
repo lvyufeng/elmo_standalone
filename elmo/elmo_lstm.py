@@ -11,7 +11,7 @@ with warnings.catch_warnings():
     import h5py
 import numpy
 
-from ELMo.lstm_cell_with_projection import LstmCellWithProjection
+from elmo.lstm_cell_with_projection import LstmCellWithProjection
 from allennlp.common.checks import ConfigurationError
 from allennlp.modules.encoder_base import _EncoderBase
 

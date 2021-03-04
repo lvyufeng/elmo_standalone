@@ -14,11 +14,11 @@ with warnings.catch_warnings():
 from allennlp.common.checks import ConfigurationError
 # from allennlp.common import Params
 from allennlp.common.util import lazy_groups_of
-from ELMo.elmo_lstm import ElmoLstm
+from elmo.elmo_lstm import ElmoLstm
 from allennlp.modules.highway import Highway
 from allennlp.modules.scalar_mix import ScalarMix
 from allennlp.nn.util import remove_sentence_boundaries, add_sentence_boundary_token_ids, get_device_of
-from ELMo.elmo_indexer import ELMoCharacterMapper, ELMoTokenCharactersIndexer
+from elmo.elmo_indexer import ELMoCharacterMapper, ELMoTokenCharactersIndexer
 from allennlp.data.dataset import Batch
 from allennlp.data import Token, Vocabulary, Instance
 from allennlp.data.fields import TextField
